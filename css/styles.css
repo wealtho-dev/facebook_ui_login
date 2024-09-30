@@ -1,0 +1,104 @@
+.login {
+    background-color: #f0f2f5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.loginLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.loginBox {
+    background-color: #fff;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.loginInput {
+    height: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.log-in-Button:focus {
+    outline: none;
+}
+.log-in-Button
+ {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1775ee;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+.login-forgot {
+    color: #1775ee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-forgot:hover {
+    text-decoration: underline;
+}
+.celebrity {
+    margin-top: 20px;
+}
+
+
+span > a:hover {
+    text-decoration: underline;
+}
+span > a {
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;   
+}
+span > a:hover {
+text-decoration: underline;
+}
+.login-register-button {
+    background-color: #42b72a;
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    align-self: center;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 20px;
+}
+.loginLogo {
+    color: #1775ee;
+    font-size: 70px;
+    font-weight: 2000;
+    
+}
+.loginDescription {
+    font-size: 25px;
+}
+
+
